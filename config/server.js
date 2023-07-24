@@ -1,5 +1,5 @@
 module.exports = ({ env }) => {
-  console.log("env:", env.array("APP_KEYS"));
+  // console.log("env:", env.array("APP_KEYS"));
 
   return {
     host: env("HOST", "0.0.0.0"),
